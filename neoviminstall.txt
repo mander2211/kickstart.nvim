@@ -10,3 +10,9 @@ cpack -G DEB
 # sudo apt remove neovim
 sudo dpkg -i --force-overwrite nvim-linux64.deb
 nvim
+cd ~/.config
+git clone git@github.com:mander2211/kickstart.nvim.git nvim
+nvim 
+:Lazy
+U
+
